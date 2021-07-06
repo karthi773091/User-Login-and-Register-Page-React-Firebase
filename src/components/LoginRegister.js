@@ -59,14 +59,14 @@ class LoginRegister extends Component {
         className="loginBtn"
         type="submit"
         onClick={this.login}
-        value="Enter"
+        value="SignIn"
       />
     ) : (
       <input
         className="loginBtn"
         type="submit"
         onClick={this.register}
-        value="Register"
+        value="SignUp"
       />
     );
 
